@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @parking_lot.name %>
+</p>
+
+<p>
+  <b>Details:</b>
+  <%= @parking_lot.details %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @parking_lot.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @parking_lot.longitude %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @parking_lot.address %>
+</p>
+
+<p>
+  <b>Paid:</b>
+  <%= @parking_lot.paid %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @parking_lot.author_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_parking_lot_path(@parking_lot) %> |
+<%= link_to 'Back', parking_lots_path %>
